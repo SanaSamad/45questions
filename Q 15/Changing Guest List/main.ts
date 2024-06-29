@@ -10,3 +10,23 @@
 
 // • Print a second set of invitation messages, one for each person who is
 //  still in your list.
+
+let guestList: string[] = ["Saba", "Habiba", "Anum", "Rani","Hira"];
+let notattending: string = guestList.splice(0,1)[0];
+console.log(`${notattending} will not be attending dinner tonight`)
+console.log(guestList)
+guestList.push('Aizah');
+console.log(guestList);
+guestList.forEach(guest =>{
+    console.log(`Dear ${guest}, you are cordialy invited for the dinner`)
+})
+
+
+
+
+
+
+
+
+
+
